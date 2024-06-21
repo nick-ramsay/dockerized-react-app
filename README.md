@@ -78,8 +78,8 @@ First, ensure you have Node.js and npm installed. Then, create a new React app u
 
 ### 1. Create the React App:
 ```
-npx create-react-app my-react-app
-cd my-react-app
+npx create-react-app dockerized-react-app
+cd dockerized-react-app
 ```
 
 ### 2. Test the App:
@@ -128,12 +128,12 @@ CMD ["serve", "-s", "build"]
 ### 1. Build the Docker Image:
 
 ```
-docker build -t my-react-app .
+docker build -t dockerized-react-app .
 ```
 ### 2. Run the Docker Container:
 
 ```
-docker run -p 3000:3000 my-react-app
+docker run -p 3000:3000 dockerized-react-app
 ```
 
 ## Step 4: Test the Containerized App
