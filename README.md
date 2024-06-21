@@ -133,11 +133,11 @@ docker build -t my-react-app .
 ### 2. Run the Docker Container:
 
 ```
-docker run -p 5000:5000 my-react-app
+docker run -p 3000:3000 my-react-app
 ```
 
 ## Step 4: Test the Containerized App
-Once the container is running, you can access the React app by visiting http://localhost:5000 in your browser.
+Once the container is running, you can access the React app by visiting http://localhost:3000 in your browser.
 
 ### Summary
 You’ve successfully created a simple React app, containerized it using Docker, and run it in a Docker container. This setup ensures that your React app can run consistently across different environments.
